@@ -2,44 +2,159 @@
 <!DOCTYPE html>
 <html>
 <head>
- 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="http://code.jquery.com/jquery"-1.11.1.min.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="resources/css/navbar.css">
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet" media="all">
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+	rel="stylesheet" media="all">
+<link rel="stylesheet"
+	href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="resources/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/common.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/style7.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700'
+	rel='stylesheet' type='text/css' />
+<script type="text/javascript"
+	src="resources/js/modernizr.custom.79639.js"></script>
+
+<!--FLEXOR THEME-->
+<meta content="" name="keywords">
+<meta content="" name="description">
+
+<!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<meta property="og:site_name" content="">
+<meta property="og:description" content="">
+
+<!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="resources/img/icons/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="resources/img/icons/114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="resources/img/icons/72x72.png">
+<link rel="apple-touch-icon-precomposed"
+	href="resources/img/icons/default.png">
+
+<!-- Google Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900"
+	rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="resources/lib/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet">
+<link href="resources/lib/owlcarousel/owl.carousel.min.css"
+	rel="stylesheet">
+<link href="resources/lib/owlcarousel/owl.theme.min.css"
+	rel="stylesheet">
+<link href="resources/lib/owlcarousel/owl.transitions.min.css"
+	rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+<link href="resources/css/style1.css" rel="stylesheet">
+
+<link href="#" id="colour-scheme" rel="stylesheet">
+
+
 </head>
-<body>
- <nav class="navbar navbar-inverse navbar-fixed-top">
-   <div class="container">
-    <div class="nabvar-header">
-     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ib-example-navbar">
-       <span class="icon-bar"></span>
-       <span class="icon-bar"></span>
-       <span class="icon-bar"></span>      
-     </button>
-      
-    </div>
-     <div class="navbar-collapse collapse" id="ib-example-navbar">
-      
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="Home">Home</a></li>
-      <li class="">
-      <li><a href="AboutUs">About Us</a></li>
-      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<span class="caret"></span></a>
-       <ul class="dropdown-menu"> 
-        <li><a href="#">Page-1</a></li>
-        <li><a href="#">Page-2</a></li>
-        <li><a href="#">Page-3</a></li>
-       </ul>
-      </li>
-      <li><a href="displayProduct">Display Product</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="login">Login</a></li>
-    </ul>
-     </div>
-  </div>
- </nav>
+<body class="">
+	<!--FONT AWESOME CDN LINK FOR FONT-AWESOME FONT -->
+	<div class="header navbar navbar-default navbar-custom">
+		
+<br>
+
+<!-- navbar -->
+			<nav class="navbar  navbar-custom">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-toggle collapsed" data-target="#navbar"
+							data-toggle="collapse"> <i
+							class="fa fa-chevron-down faa-vertical animated"></i>
+						</a>
+
+					</div>
+					<div id="navbar" class="navbar-collapse collapse navbar-custom ">
+						<ul class="nav navbar-nav">
+							<li><a href="Home" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-home faa-wrench faa-fast"></i>&nbsp&nbsp HOME &nbsp&nbsp&nbsp&nbsp
+							</a></li>
+							<li><a  href="AboutUs" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-quote-left faa-tada faa-fast"></i>&nbsp&nbsp ABOUT US &nbsp&nbsp
+									
+							</a></li>
+
+							<li class="dropdown"><a href="#"
+								class="dropdown-toggle faa-parent animated-hover"
+								data-toggle="dropdown"> <i
+									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i> &nbsp&nbsp PRODUCT &nbsp <span
+									class="fa fa-caret-down"></span> &nbsp&nbsp
+							</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="Makeup" class="faa-parent animated-hover"> <i
+											class="fa fa-fw fa-level-down faa-tada faa-fast"></i>MAKEUP
+											
+									</a></li>
+									<li><a href="Fragrances" class="faa-parent animated-hover"> <i
+											class="fa fa-fw fa-external-link faa-tada faa-fast"></i>FRAGRANCES
+									</a></li>
+									<li><a href="BathBody" class="faa-parent animated-hover"> <i
+											class="fa fa-fw fa-search faa-tada faa-fast"></i>BATH & BODY
+									</a></li>
+									
+								</ul></li>
+								
+							<li><a href="displayProduct" class="faa-parent animated-hover">
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>DISPLAY PRODUCT
+									
+							</a></li>
+								
+							<li><a href="ContactUs" class="faa-parent animated-hover">
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>CONTACT
+									US
+							</a></li>
+							
+							<li><a href="Register"  class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-edit faa-tada faa-fast"></i>REGISTER
+							</a></li>
+							
+							<li><a  href="login" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast"></i>LOGIN
+									
+							</a></li>
+						</ul>
+
+
+					</div>
+				</div>
+			</nav>
+
+		</div>
+	</div>
+
+
 </body>
 </html>

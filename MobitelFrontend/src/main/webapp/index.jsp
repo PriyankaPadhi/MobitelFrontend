@@ -1,9 +1,5 @@
 <%@ page language="java" contentType="text/html"%>
-<%@ include file="WEB-INF/views/Header.jsp"%>
 
-<br>
-<br>
-<br>
 <!DOCTYPE html>
 <html>
 <head>
@@ -88,6 +84,10 @@
 
 
 <style>
+.image
+{
+	background-image: url(../img/backgrounds/pink.jpg);
+}
 .beauty {
 	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
 		'URW Chancery L', cursive;
@@ -95,10 +95,17 @@
 	margin-left: 230px;
 	color: #FC2080  ;
 }
+.font
+{
+	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
+		'URW Chancery L', cursive;
+	font-size: 50px;
+	color: #FC2080 ;
+}
 </style>
 </head>
 
-<body class="page-index has-hero">
+<body class="page-index has-hero image">
 	<!--FONT AWESOME CDN LINK FOR FONT-AWESOME FONT -->
 	<div class="header navbar navbar-default navbar-custom">
 		<div class="header-inner container">
@@ -160,7 +167,12 @@
 									</a></li>
 									
 								</ul></li>
-							
+								
+							<li><a href="displayProduct" class="faa-parent animated-hover">
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>DISPLAY PRODUCT
+									
+							</a></li>
+								
 							<li><a href="ContactUs" class="faa-parent animated-hover">
 									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>CONTACT
 									US
@@ -231,7 +243,7 @@
 			<div class="item">
 
 				<!-- Slide Background -->
-				<img src="resources/img/showcase/little-black-dress-lace.jpg"
+				<img src="resources/img/showcase/img5.jpg"
 					alt="Bootstrap Touch Slider" class="slide-image" />
 				<div class="bs-slider-overlay"></div>
 
@@ -262,9 +274,9 @@
 	<!-- images -->
 
 	<!--  testing images -->
-	<div class="container">
+	<div class="container background">
 
-		<section class="main">
+		<section class="main ">
 
 			<ul class="ch-grid">
 				<li>
@@ -300,7 +312,7 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-3"
 								style="width: 250px; height: 250px;">
-								<img alt="img 1" src="resources/img/showcase/img1.jpg">
+								
 							</div>
 							<div class="ch-info-back">
 								<h3>Love</h3>
@@ -323,17 +335,14 @@
 		<div class="container-fluid">
 			<div class="showcase block block-border-bottom-grey">
 				<div class="container">
-					<h2 class="block-title">Showcase</h2>
-					<p>This is Photoshop's version of Lorem Ipsum. Proin gravida
-						nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-						bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
-						id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
-						mauris.</p>
+					<h2 class="block-title font"><b><i>Our Best Selling Products</i></b></h2>
+					<br>
+					<br>
 					<div class="item-carousel" data-toggle="owlcarousel"
 						data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project1.png" alt="Project 1 image"
+								src="resources/img/showcase/25025.jpg" alt="Project 1 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											1</span>
@@ -350,7 +359,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project2.png" alt="Project 2 image"
+								src="resources/img/showcase/img4.jpg" alt="Project 2 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											2</span>
@@ -367,7 +376,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project3.png" alt="Project 3 image"
+								src="resources/img/showcase/img12.jpg" alt="Project 3 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											3</span>
@@ -384,7 +393,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project4.png" alt="Project 4 image"
+								src="resources/img/showcase/img6.jpg" alt="Project 4 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											4</span>
@@ -401,7 +410,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project5.png" alt="Project 5 image"
+								src="resources/img/showcase/img7.jpg" alt="Project 5 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											5</span>
@@ -418,7 +427,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project6.png" alt="Project 6 image"
+								src="resources/img/showcase/img8.jpg" alt="Project 6 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											6</span>
@@ -435,7 +444,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project7.png" alt="Project 7 image"
+								src="resources/img/showcase/img9.jpg" alt="Project 7 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											7</span>
@@ -452,7 +461,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project8.png" alt="Project 8 image"
+								src="resources/img/showcase/img10.jpg" alt="Project 8 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											8</span>
@@ -469,7 +478,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project9.png" alt="Project 9 image"
+								src="resources/img/showcase/img13.jpg" alt="Project 9 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											9</span>
@@ -486,7 +495,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project10.png"
+								src="resources/img/showcase/img11.jpg"
 								alt="Project 10 image" class="img-responsive underlay"> <span
 								class="overlay"> <span class="overlay-content"> <span
 										class="h4">Project 10</span>
@@ -503,7 +512,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project11.png"
+								src="resources/img/showcase/img14.jpg"
 								alt="Project 11 image" class="img-responsive underlay"> <span
 								class="overlay"> <span class="overlay-content"> <span
 										class="h4">Project 11</span>
@@ -520,7 +529,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/images/12.jpg" height="400" 
+								src="resources/img/showcase/img.jpg" height="2%"
 								alt="Project 12 image" class="img-responsive underlay"> <span
 								class="overlay"> <span class="overlay-content"> <span
 										class="h4">Project 12</span>
@@ -640,94 +649,7 @@
 
 
 	<!-- ======== @Region: #footer ======== -->
-	<footer id="footer" class="block block-bg-grey-dark"
-		data-block-bg-img="img/bg_footer-map.png"
-		data-stellar-background-ratio="0.4">
-		<div class="container">
-
-			<div class="row" id="contact">
-
-				<div class="col-md-3">
-					<address>
-						<strong>BeautyTouch</strong> <br> <i
-							class="fa fa-map-pin fa-fw text-primary"></i>Mumbai
-						401107,Maharashtra,India <br> <i
-							class="fa fa-phone fa-fw text-primary"></i> +91 8097683684 <br>
-						<i class="fa fa-envelope-o fa-fw text-primary"></i>
-						info@LookFab.com <br>
-					</address>
-				</div>
-
-				<div class="col-md-6">
-					<h4 class="text-uppercase">Contact Us</h4>
-					<div class="form">
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
-						<div id="errormessage"></div>
-						<form action="" method="post" role="form" class="contactForm">
-							<div class="form-group">
-								<input type="text" name="name" class="form-control" id="name"
-									placeholder="Your Name" data-rule="minlen:4"
-									data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" name="email" id="email"
-									placeholder="Your Email" data-rule="email"
-									data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" name="subject"
-									id="subject" placeholder="Subject" data-rule="minlen:4"
-									data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" name="message" rows="5"
-									data-rule="required" data-msg="Please write something for us"
-									placeholder="Message"></textarea>
-								<div class="validation"></div>
-							</div>
-							<div class="text-center">
-								<button type="submit">Send Message</button>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				<div class="col-md-3">
-					<h4 class="text-uppercase">Follow Us On:</h4>
-					<!--social media icons-->
-					<div class="social-media social-media-stacked">
-						<!--@todo: replace with company social media details-->
-						<a href="#"><i class="fa fa-twitter fa-fw"></i> Twitter</a> <a
-							href="#"><i class="fa fa-facebook fa-fw"></i> Facebook</a> <a
-							href="#"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a> <a
-							href="#"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row subfooter">
-				<!--@todo: replace with company copyright details-->
-				<div class="col-md-7">
-					<p>Copyright © </p>
-					
-				</div>
-				<div class="col-md-5">
-					<ul class="list-inline pull-right">
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<a href="#top" class="scrolltop">Top</a>
-
-		</div>
-	</footer>
+	
 
 	<!-- Required JavaScript Libraries -->
 	<script src="resources/lib/jquery/jquery.min.js"></script>

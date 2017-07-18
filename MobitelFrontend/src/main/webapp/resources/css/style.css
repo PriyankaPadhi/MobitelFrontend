@@ -332,6 +332,7 @@
   position: relative;
   margin-bottom: 30px;
 }
+
 .block .block-title:after {
   width: 80px;
   height: 1px;

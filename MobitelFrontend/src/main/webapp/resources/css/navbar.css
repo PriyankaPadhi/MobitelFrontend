@@ -679,6 +679,11 @@ a:hover .fa
 
 }
 /*testing images*/
+.background
+{
+	background-image: url(../img/backgrounds/pink.jpg);
+	 height: 100%;
+}
 .ch-item {
     width: 100%;
     height: 100%;
@@ -702,6 +707,7 @@ a:hover .fa
     transform-style: preserve-3d;
 }
 .ch-info > div {
+	background-color:#ffffff;
     display: block;
     position: absolute;
     width: 100%;
@@ -738,23 +744,23 @@ a:hover .fa
 }
 
 .ch-img-1 { 
-    background-image: url(../img/showcase/img2.jpg);
+    background-image: url(../images/img2.jpg);
     margin-left: 0 auto !important;
     width: 250px !important;
     height:250px !important;
 }
 
 .ch-img-2 { 
-    background-image: url(../img/showcase/img2.jpg);
+    background-image: url(../images/img3.jpg);
     margin: 0 auto !important;
     width: 250px !important;
     height:250px !important;
 }
-}
+
 
 .ch-img-3 { 
-    background-image: url(../img/showcase/img1.jpg);
-    margin-right: 0 auto !important;
+    background-image: url(../images/img1.jpg);
+    margin: 0 auto !important;
     width: 250px !important;
     height:250px !important;
 }
