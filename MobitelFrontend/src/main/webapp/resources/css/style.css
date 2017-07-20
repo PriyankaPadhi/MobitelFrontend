@@ -525,7 +525,7 @@
 }
 .block-contained.block-bg-primary,
 .block-contained.block-bg-primary:after {
-  background-color: #ff5821;
+  background-color: yellow;
   color: #ffffff;
 }
 .block-contained.block-bg-noise,

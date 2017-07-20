@@ -18,21 +18,16 @@
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover
 {
-	color:#FCA5CC;
+	
 	background-color:#FFFFFF;
 }
 a
 {
     cursor:pointer;
 }
-a:hover
-{
-	color:#FCA5CC;
-}
 
 a:hover .fa
 {
-	color:#000000;
     -webkit-animation:fa-spin 1s;animation:fa-spin 1s
 }
 .hl-left
@@ -51,7 +46,7 @@ a:hover .fa
 
 /*test*/
 .navbar-custom {
-    background-color: #FCA5CC  ;
+    background-color: #D80865    ;
     color:#ffffff !important;
 }
 /* change the brand and text color */
@@ -328,7 +323,7 @@ a:hover .fa
 
 .bs-slider{
     overflow: hidden;
-    max-height: 700px;
+    
     position: relative;
     background: #000000;
 }
@@ -829,3 +824,4 @@ h1{
      font-variant: normal;
   font-weight: bolder;
 }
+

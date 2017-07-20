@@ -1517,7 +1517,7 @@ img {
 }
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Cambria, Georgia, serif;
 }
 h1,
 h2,
@@ -1746,8 +1746,9 @@ a.btn-hh-trigger.target-open:after {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3), to(#e6e6e6));
   background-image: -webkit-linear-gradient(top, #f3f3f3, #e6e6e6);
   background-image: -o-linear-gradient(top, #f3f3f3, #e6e6e6);
-  background-image: linear-gradient(to bottom, #f3f3f3, #e6e6e6);
-  background-repeat: repeat-x;
+  background-image: url(../img/backgrounds/pink.jpg);
+    background-repeat: repeat-x;
+
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff3f3f3', endColorstr='#ffe6e6e6', GradientType=0);
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1929,14 +1930,14 @@ a.btn-hh-trigger.target-open:after {
 .navbar-default .navbar-nav li > a:not(.btn):hover,
 .navbar-default .navbar-nav li.icon-link a:hover {
   background: #ffffff;
-  color: #ff5821;
+  color: #D80865;
 }
 .navbar-default .navbar-nav li.open a:hover,
 .navbar-default .navbar-nav li.open a:focus,
 .navbar-default .navbar-nav li.open a.dropdown-toggle,
 .navbar-default .navbar-nav li.active a.top-level,
 .navbar-default .navbar-nav li.active a:hover {
-  background: #ff5821;
+  background: #D80865;
   color: #ffffff !important;
   text-shadow: none;
 }
@@ -1957,7 +1958,7 @@ a.btn-hh-trigger.target-open:after {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  border-top: 3px solid #ff5821;
+  border-top: 3px solid #D80865;
   background: #f3f3f3;
   min-width: 200px;
 }

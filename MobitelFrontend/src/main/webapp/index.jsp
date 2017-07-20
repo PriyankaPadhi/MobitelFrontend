@@ -88,6 +88,7 @@
 {
 	background-image: url(../img/backgrounds/pink.jpg);
 }
+
 .beauty {
 	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
 		'URW Chancery L', cursive;
@@ -107,7 +108,7 @@
 
 <body class="page-index has-hero image">
 	<!--FONT AWESOME CDN LINK FOR FONT-AWESOME FONT -->
-	<div class="header navbar navbar-default navbar-custom">
+	<div class="header navbar navbar-default navbar-custom background">
 		<div class="header-inner container">
 			<div class="row">
 				<div class="col-md-8">
@@ -119,17 +120,19 @@
 				
 			</div>
 			<p>
-			<h1 class="beauty">
+			<div class=" container">
+			<h1 class=" beauty">
 				<a class="faa-parent animated-hover "> <i
 					class="fa fa-fw faa-pulse faa-slow beauty">BeautyTouch</i>
 				</a>
 
 			</h1>
 			</p>
+			</div>
 <br>
 
 <!-- navbar -->
-			<nav class="navbar  navbar-custom">
+			<nav class="navbar navbar-custom navbar-default">
 				<div class="container">
 					<div class="navbar-header">
 						<a class="navbar-toggle collapsed" data-target="#navbar"
@@ -151,7 +154,7 @@
 							<li class="dropdown"><a href="#"
 								class="dropdown-toggle faa-parent animated-hover"
 								data-toggle="dropdown"> <i
-									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i> &nbsp&nbsp PRODUCT &nbsp <span
+									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i> &nbsp&nbsp PRODUCT &nbsp&nbsp<span
 									class="fa fa-caret-down"></span> &nbsp&nbsp
 							</a>
 								<ul class="dropdown-menu" role="menu">
@@ -222,9 +225,6 @@
 					alt="Bootstrap Touch Slider" class="slide-image" />
 				<div class="bs-slider-overlay"></div>
 
-				<div class="container">
-					<div class="row"></div>
-				</div>
 			</div>
 			<!-- End of Slide -->
 
@@ -325,7 +325,9 @@
 					</div>
 				</li>
 			</ul>
-
+			<br>
+			<br>
+			
 		</section>
 	</div>
 	<div id="content">
@@ -573,7 +575,7 @@
 			<div class="row">
 				<!--Customer testimonial-->
 				<div class="col-md-6 m-b-lg">
-					<h3 class="block-title">Testimonials</h3>
+					<h3 class="block-title font" style="font-size:30px;">Testimonials</h3>
 					<blockquote>
 						<p>Our productivity &amp; sales are up! Customers are happy
 							&amp; we couldn't be happier with this product!</p>
@@ -585,7 +587,7 @@
 				</div>
 				<!--Latest Blog posts-->
 				<div class="col-md-6 blog-roll">
-					<h3 class="block-title">Latest From Our Blog</h3>
+					<h3 class="block-title font" style="font-size:30px;">Latest From Our Blog</h3>
 					<!-- Blog post 1-->
 					<div class="media">
 						<div class="media-left hidden-xs">
