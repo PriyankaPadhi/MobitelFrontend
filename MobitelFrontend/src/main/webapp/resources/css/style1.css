@@ -399,7 +399,7 @@
 }
 .block.block-bg-grey-dark,
 .block.block-bg-grey-dark:after {
-  background-color: #212324;
+  background-image: url(../img/backgrounds/pink.jpg);
   color: white;
 }
 .block.block-bg-img {
@@ -1462,7 +1462,8 @@ blockquote p {
   text-align: center;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: normal;
+  font-weight: bold;
+  color:black;
   line-height: 1.55;
 }
 blockquote img {

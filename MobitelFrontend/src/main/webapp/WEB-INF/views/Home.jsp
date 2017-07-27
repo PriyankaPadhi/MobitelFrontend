@@ -1,9 +1,5 @@
 <%@ page language="java" contentType="text/html"%>
-<%@ include file="/WEB-INF/views/Header.jsp"%>
 
-<br>
-<br>
-<br>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +32,8 @@
 <link rel="stylesheet" type="text/css" href="resources/css/style7.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700'
 	rel='stylesheet' type='text/css' />
-<script type="text/javascript" src="resources/js/modernizr.custom.79639.js"></script>
+<script type="text/javascript"
+	src="resources/js/modernizr.custom.79639.js"></script>
 
 <!--FLEXOR THEME-->
 <meta content="" name="keywords">
@@ -87,18 +84,32 @@
 
 
 <style>
+.image
+{
+	background-image: url(../img/backgrounds/pink.jpg);
+}
+
 .beauty {
 	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
 		'URW Chancery L', cursive;
 	font-size: 75px;
 	margin-left: 230px;
+	color: #FC2080  ;
+}
+
+.font
+{
+	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
+		'URW Chancery L', cursive;
+	font-size: 50px;
+	color: #FC2080 ;
 }
 </style>
 </head>
 
-<body class="page-index has-hero">
+<body class="page-index has-hero image">
 	<!--FONT AWESOME CDN LINK FOR FONT-AWESOME FONT -->
-	<div class="header navbar navbar-inverse">
+	<div class="header navbar navbar-default navbar-custom background">
 		<div class="header-inner container">
 			<div class="row">
 				<div class="col-md-8">
@@ -107,31 +118,22 @@
 
 				</div>
 				<!--header rightside-->
-				<div class="col-md-4">
-					<!--user menu-->
-					<ul
-						class="list-inline user-menu pull-right faa-parent animated-hover">
-						<li class="hidden-xs faa-parent animated-hover"><i
-							class="fa fa-fw fa-lg fa-edit faa-tada faa-fast text-primary"></i>
-							<a href="register.html" class="text-uppercase">Register</a></li>
-						<li class="hidden-xs faa-parent animated-hover"><i
-							class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast text-primary"></i>
-							<a href="login.html" class="text-uppercase">Login</a></li>
-
-					</ul>
-				</div>
+				
 			</div>
-			<p>
-			<h1 class="beauty">
-				<a class="faa-parent animated-hover "> <i
+			
+			<div class=" container">
+			<h1 class=" beauty" >
+			
+				<a class="faa-parent animated-hover"> <i
 					class="fa fa-fw faa-pulse faa-slow beauty">BeautyTouch</i>
 				</a>
-
 			</h1>
-			</p>
+			
+			</div>
 
 
-			<nav class="navbar navbar-default">
+<!-- navbar -->
+			<nav class="navbar navbar-custom navbar-default">
 				<div class="container">
 					<div class="navbar-header">
 						<a class="navbar-toggle collapsed" data-target="#navbar"
@@ -140,111 +142,73 @@
 						</a>
 
 					</div>
-					<div id="navbar" class="navbar-collapse collapse">
+					<div id="navbar" class="navbar-collapse collapse navbar-custom ">
 						<ul class="nav navbar-nav">
-							<li><a class="faa-parent animated-hover"> <i
-									class="fa fa-fw fa-lg fa-home faa-wrench faa-fast"></i>
+							<li><a href="Home" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-home faa-wrench faa-fast"></i>&nbsp&nbsp HOME &nbsp&nbsp&nbsp&nbsp
 							</a></li>
-							<li class="dropdown"><a href="#"
-								class="dropdown-toggle faa-parent animated-hover"
-								data-toggle="dropdown"> <i
-									class="fa fa-fw fa-lg fa-quote-left faa-tada faa-fast"></i>MAKEUP
-									<span class="fa fa-caret-down"></span>
-							</a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-level-down faa-tada faa-fast"></i>Portfolio
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-external-link faa-tada faa-fast"></i>Individual
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-search faa-tada faa-fast"></i>Search
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-file-pdf-o faa-tada faa-fast"></i>Product
-											Detail
-									</a></li>
-									<li class="divider"></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-flag faa-tada faa-fast"></i>Specification
-									</a></li>
-								</ul></li>
-							<li class="dropdown"><a href="#"
-								class="dropdown-toggle faa-parent animated-hover"
-								data-toggle="dropdown"> <i
-									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i>FRAGRANCE <span
-									class="fa fa-caret-down"></span>
-							</a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-level-down faa-tada faa-fast"></i>Fine
-											Fragrances
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-external-link faa-tada faa-fast"></i>Spray
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-search faa-tada faa-fast"></i>Splash
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-file-pdf-o faa-tada faa-fast"></i>Roll-on
-											Deodorant
-									</a></li>
-									<li class="divider"></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-flag faa-tada faa-fast"></i>Skin Softeners
-									</a></li>
-								</ul></li>
-							<li class="dropdown"><a href="#"
-								class="dropdown-toggle faa-parent animated-hover"
-								data-toggle="dropdown"> <i
-									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i>BATH & BODY
-									<span class="fa fa-caret-down"></span>
-							</a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-level-down faa-tada faa-fast"></i>Portfolio
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-external-link faa-tada faa-fast"></i>Individual
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-search faa-tada faa-fast"></i>Search
-									</a></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-file-pdf-o faa-tada faa-fast"></i>Product
-											Detail
-									</a></li>
-									<li class="divider"></li>
-									<li><a class="faa-parent animated-hover"> <i
-											class="fa fa-fw fa-flag faa-tada faa-fast"></i>Specification
-									</a></li>
-								</ul></li>
-							<li><a class="faa-parent animated-hover"> <i
-									class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>SKIN
-									CARE
+							<li><a  href="AboutUs" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-quote-left faa-tada faa-fast"></i>&nbsp&nbsp ABOUT US &nbsp&nbsp
+									
 							</a></li>
-							
-							
-							<li><a href="ContactUs" class="faa-parent animated-hover"> 
-							<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>CONTACT
+
+							<li class="dropdown"><a href="#"
+								class="dropdown-toggle faa-parent animated-hover"
+								data-toggle="dropdown"> <i
+									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i> &nbsp&nbsp PRODUCT &nbsp&nbsp<span
+									class="fa fa-caret-down"></span> &nbsp&nbsp
+							</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="Makeup" class="faa-parent animated-hover"> <i
+											class="fa fa-fw fa-level-down faa-tada faa-fast"></i>MAKEUP
+											
+									</a></li>
+									<li><a href="Fragrances" class="faa-parent animated-hover"> <i
+											class="fa fa-fw fa-external-link faa-tada faa-fast"></i>FRAGRANCES
+									</a></li>
+									<li><a href="BathBody" class="faa-parent animated-hover"> <i
+											class="fa fa-fw fa-search faa-tada faa-fast"></i>BATH & BODY
+									</a></li>
+									
+								</ul></li>
+								
+							<li><a href="displayProduct" class="faa-parent animated-hover">
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i> DISPLAY PRODUCT 
+									
+							</a></li>
+								
+							<li><a href="ContactUs" class="faa-parent animated-hover">
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>&nbsp CONTACT &nbsp&nbsp
 									US
+							</a></li>
+							
+							<li><a href="Register"  class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-edit faa-tada faa-fast"></i>&nbsp REGISTER 
+							</a></li>
+							
+							<li><a  href="login" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast"></i>&nbsp LOGIN &nbsp
+									
+							</a></li>
+							
+							<li><a  href="" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-search faa-tada faa-fast"></i> MORE &nbsp
+									
 							</a></li>
 						</ul>
 
 
 					</div>
 				</div>
-			</nav>
+			
 
 		</div>
-	</div>
-
+	
+</nav>
 
 	<!-- Carousel -->
 
-	<div id="bootstrap-touch-slider"
+	<div id="content"
 		class="carousel bs-slider slide  control-round indicators-line"
 		data-ride="carousel" data-pause="hover" data-interval="5000">
 
@@ -264,14 +228,9 @@
 
 				<!-- Slide Background -->
 				<img src="resources/img/showcase/c6-banner.jpg"
-					alt="Bootstrap Touch Slider" class="slide-image" />
+					alt="Bootstrap Touch Slider" class="slide-image" height="500px" />
 				<div class="bs-slider-overlay"></div>
 
-				<div class="container">
-					<div class="row">
-						
-					</div>
-				</div>
 			</div>
 			<!-- End of Slide -->
 
@@ -282,7 +241,7 @@
 				<img src="resources/img/showcase/c7-hp-banner.jpg"
 					alt="Bootstrap Touch Slider" class="slide-image" />
 				<div class="bs-slider-overlay"></div>
-				
+
 			</div>
 			<!-- End of Slide -->
 
@@ -290,10 +249,10 @@
 			<div class="item">
 
 				<!-- Slide Background -->
-				<img src="resources/img/showcase/little-black-dress-lace.jpg"
+				<img src="resources/img/showcase/img5.jpg"
 					alt="Bootstrap Touch Slider" class="slide-image" />
 				<div class="bs-slider-overlay"></div>
-				
+
 			</div>
 			<!-- End of Slide -->
 
@@ -315,15 +274,13 @@
 
 	</div>
 	<!-- End  bootstrap-touch-slider Slider -->
-	<br>
-	<br>
-	<br>
+	
 	<!-- images -->
 
 	<!--  testing images -->
-	<div class="container">
+	<div id="content" class="container">
 
-		<section class="main">
+		<section class="main ">
 
 			<ul class="ch-grid">
 				<li>
@@ -331,11 +288,8 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-1"></div>
 							<div class="ch-info-back">
-								<h3>Mouse</h3>
-								<p>
-									by Alexander Shumihin <a href="http://drbl.in/eAoj">View on
-										Dribbble</a>
-								</p>
+								<h3>Beauty</h3>
+								
 							</div>
 						</div>
 					</div>
@@ -345,11 +299,8 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-2"></div>
 							<div class="ch-info-back">
-								<h3>You</h3>
-								<p>
-									by Zoe Ingram <a href="http://drbl.in/eCcV">View on
-										Dribbble</a>
-								</p>
+								<h3>In Just One</h3>
+								
 							</div>
 						</div>
 					</div>
@@ -358,19 +309,20 @@
 					<div class="ch-item">
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-3"
-								style="width: 250px; height: 250px;"><img alt="img 1" src="resources/img/showcase/img1.jpg"></div>
+								style="width: 250px; height: 250px;">
+								
+							</div>
 							<div class="ch-info-back">
-								<h3>Love</h3>
-								<p>
-									by Eileen Tjan <a href="http://drbl.in/ewTL">View on
-										Dribbble</a>
-								</p>
+								<h3>Click</h3>
+								
 							</div>
 						</div>
 					</div>
 				</li>
 			</ul>
-
+			<br>
+			<br>
+			
 		</section>
 	</div>
 	<div id="content">
@@ -380,17 +332,14 @@
 		<div class="container-fluid">
 			<div class="showcase block block-border-bottom-grey">
 				<div class="container">
-					<h2 class="block-title">Showcase</h2>
-					<p>This is Photoshop's version of Lorem Ipsum. Proin gravida
-						nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-						bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
-						id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
-						mauris.</p>
+					<h2 class="block-title font"><b><i>Our Best Selling Products</i></b></h2>
+					<br>
+					<br>
 					<div class="item-carousel" data-toggle="owlcarousel"
 						data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project1.png" alt="Project 1 image"
+								src="resources/img/showcase/25025.jpg" alt="Project 1 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											1</span>
@@ -407,7 +356,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project2.png" alt="Project 2 image"
+								src="resources/img/showcase/img4.jpg" alt="Project 2 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											2</span>
@@ -424,7 +373,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project3.png" alt="Project 3 image"
+								src="resources/img/showcase/img12.jpg" alt="Project 3 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											3</span>
@@ -441,7 +390,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project4.png" alt="Project 4 image"
+								src="resources/img/showcase/img6.jpg" alt="Project 4 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											4</span>
@@ -458,7 +407,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project5.png" alt="Project 5 image"
+								src="resources/img/showcase/img7.jpg" alt="Project 5 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											5</span>
@@ -475,7 +424,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project6.png" alt="Project 6 image"
+								src="resources/img/showcase/img8.jpg" alt="Project 6 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											6</span>
@@ -492,7 +441,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project7.png" alt="Project 7 image"
+								src="resources/img/showcase/img9.jpg" alt="Project 7 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											7</span>
@@ -509,7 +458,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project8.png" alt="Project 8 image"
+								src="resources/img/showcase/img10.jpg" alt="Project 8 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											8</span>
@@ -526,7 +475,7 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project9.png" alt="Project 9 image"
+								src="resources/img/showcase/img13.jpg" alt="Project 9 image"
 								class="img-responsive underlay"> <span class="overlay">
 									<span class="overlay-content"> <span class="h4">Project
 											9</span>
@@ -543,10 +492,10 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project10.png" alt="Project 10 image"
-								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											10</span>
+								src="resources/img/showcase/img11.jpg"
+								alt="Project 10 image" class="img-responsive underlay"> <span
+								class="overlay"> <span class="overlay-content"> <span
+										class="h4">Project 10</span>
 								</span>
 							</span>
 							</a>
@@ -560,10 +509,10 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project11.png" alt="Project 11 image"
-								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											11</span>
+								src="resources/img/showcase/img14.jpg"
+								alt="Project 11 image" class="img-responsive underlay"> <span
+								class="overlay"> <span class="overlay-content"> <span
+										class="h4">Project 11</span>
 								</span>
 							</span>
 							</a>
@@ -577,10 +526,10 @@
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
-								src="resources/img/showcase/project12.png" alt="Project 12 image"
-								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											12</span>
+								src="resources/img/showcase/img.jpg" height="2%"
+								alt="Project 12 image" class="img-responsive underlay"> <span
+								class="overlay"> <span class="overlay-content"> <span
+										class="h4">Project 12</span>
 								</span>
 							</span>
 							</a>
@@ -598,61 +547,7 @@
 		</div>
 		<!--Change the background class to alter background image, options are: benches, boots, buildings, city, metro -->
 
-		<!-- Services -->
-		<div class="services block block-bg-gradient block-border-bottom">
-			<div class="container">
-				<h2 class="block-title">Our Services</h2>
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<span class="fa-stack fa-5x"> <i
-							class="fa fa-circle fa-stack-2x text-primary"></i> <i
-							class="fa fa-group fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="text-weight-strong">User Experience / Information
-							Architecture</h4>
-						<p>Rhoncus adipiscing, magna integer cursus augue eros lacus
-							porttitor magna. Dictumst, odio! Elementum tortor sociis in eu
-							dis dictumst pulvinar lorem nec aliquam a nascetur.</p>
-						<p>
-							<a href="#" class="btn btn-more i-right">Learn More <i
-								class="fa fa-angle-right"></i></a>
-						</p>
-					</div>
-					<div class="col-md-4 text-center">
-						<span class="fa-stack fa-5x"> <i
-							class="fa fa-circle fa-stack-2x text-primary"></i> <i
-							class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="text-weight-strong">User Interface Design / User
-							Interface Theming</h4>
-						<p>Rhoncus adipiscing, magna integer cursus augue eros lacus
-							porttitor magna. Dictumst, odio! Elementum tortor sociis in eu
-							dis dictumst pulvinar lorem nec aliquam a nascetur.</p>
-						<p>
-							<a href="#" class="btn btn-more i-right">Learn More <i
-								class="fa fa-angle-right"></i></a>
-						</p>
-					</div>
-					<div class="col-md-4 text-center">
-						<span class="fa-stack fa-5x"> <i
-							class="fa fa-circle fa-stack-2x text-primary"></i> <i
-							class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4 class="text-weight-strong">Code &amp; Development /
-							Implementation Support</h4>
-						<p>Rhoncus adipiscing, magna integer cursus augue eros lacus
-							porttitor magna. Dictumst, odio! Elementum tortor sociis in eu
-							dis dictumst pulvinar lorem nec aliquam a nascetur.</p>
-						<p>
-							<a href="#" class="btn btn-more i-right">Learn More <i
-								class="fa fa-angle-right"></i></a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--
+				<!--
     Background image callout with CSS overlay
     Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQuery .block-bg-overlay = overlays the background image, colour is inherited from block-bg-* classes .block-bg-overlay-NUMBER = determines opcacity value of overlay from 1-9 (default is 5) ie. .block-bg-overlay-2 or .block-bg-overlay-6
     -->
@@ -675,7 +570,7 @@
 			<div class="row">
 				<!--Customer testimonial-->
 				<div class="col-md-6 m-b-lg">
-					<h3 class="block-title">Testimonials</h3>
+					<h3 class="block-title font" style="font-size:30px;">Testimonials</h3>
 					<blockquote>
 						<p>Our productivity &amp; sales are up! Customers are happy
 							&amp; we couldn't be happier with this product!</p>
@@ -687,7 +582,7 @@
 				</div>
 				<!--Latest Blog posts-->
 				<div class="col-md-6 blog-roll">
-					<h3 class="block-title">Latest From Our Blog</h3>
+					<h3 class="block-title font" style="font-size:30px;">Latest From Our Blog</h3>
 					<!-- Blog post 1-->
 					<div class="media">
 						<div class="media-left hidden-xs">
@@ -751,103 +646,7 @@
 
 
 	<!-- ======== @Region: #footer ======== -->
-	<footer id="footer" class="block block-bg-grey-dark"
-		data-block-bg-img="img/bg_footer-map.png"
-		data-stellar-background-ratio="0.4">
-		<div class="container">
-
-			<div class="row" id="contact">
-
-				<div class="col-md-3">
-					<address>
-						<strong>LookFab</strong> <br> <i
-							class="fa fa-map-pin fa-fw text-primary"></i>Mumbai
-						401107,Maharashtra,India <br> <i
-							class="fa fa-phone fa-fw text-primary"></i> +91 8097683684 <br>
-						<i class="fa fa-envelope-o fa-fw text-primary"></i>
-						info@LookFab.com <br>
-					</address>
-				</div>
-
-				<div class="col-md-6">
-					<h4 class="text-uppercase">Contact Us</h4>
-					<div class="form">
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
-						<div id="errormessage"></div>
-						<form action="" method="post" role="form" class="contactForm">
-							<div class="form-group">
-								<input type="text" name="name" class="form-control" id="name"
-									placeholder="Your Name" data-rule="minlen:4"
-									data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" name="email" id="email"
-									placeholder="Your Email" data-rule="email"
-									data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" name="subject"
-									id="subject" placeholder="Subject" data-rule="minlen:4"
-									data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" name="message" rows="5"
-									data-rule="required" data-msg="Please write something for us"
-									placeholder="Message"></textarea>
-								<div class="validation"></div>
-							</div>
-							<div class="text-center">
-								<button type="submit">Send Message</button>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				<div class="col-md-3">
-					<h4 class="text-uppercase">Follow Us On:</h4>
-					<!--social media icons-->
-					<div class="social-media social-media-stacked">
-						<!--@todo: replace with company social media details-->
-						<a href="#"><i class="fa fa-twitter fa-fw"></i> Twitter</a> <a
-							href="#"><i class="fa fa-facebook fa-fw"></i> Facebook</a> <a
-							href="#"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a> <a
-							href="#"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row subfooter">
-				<!--@todo: replace with company copyright details-->
-				<div class="col-md-7">
-					<p>Copyright © Flexor Theme</p>
-					<div class="credits">
-						<!-- 
-                    All the links in the footer should remain intact. 
-                    You can delete the links only if you purchased the pro version.
-                    Licensing information: https://bootstrapmade.com/license/
-                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flexor
-                  -->
-						<a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by
-						BootstrapMade.com
-					</div>
-				</div>
-				<div class="col-md-5">
-					<ul class="list-inline pull-right">
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<a href="#top" class="scrolltop">Top</a>
-
-		</div>
-	</footer>
+	
 
 	<!-- Required JavaScript Libraries -->
 	<script src="resources/lib/jquery/jquery.min.js"></script>
@@ -866,15 +665,5 @@
 
 	<!--Contactform script -->
 	<script src="resources/contactform/contactform.js"></script>
-</body>
-</html>
-
-<h2>Hello World!</h2>
-<h2 align="center">Landing Page</h2>
-<center>
-	<a href="Category">Category</a> 
-	<a href="Product">Product</a>
-	 <a href="Supplier">Supplier</a> 
-</center>
 </body>
 </html>

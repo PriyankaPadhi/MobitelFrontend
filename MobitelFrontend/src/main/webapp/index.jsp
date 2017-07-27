@@ -127,7 +127,6 @@
 				<a class="faa-parent animated-hover"> <i
 					class="fa fa-fw faa-pulse faa-slow beauty">BeautyTouch</i>
 				</a>
-<br><br>
 			</h1>
 			
 			</div>
@@ -289,6 +288,7 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-1"></div>
 							<div class="ch-info-back">
+							<br><br>
 								<h3>Beauty</h3>
 								
 							</div>
@@ -300,6 +300,7 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-2"></div>
 							<div class="ch-info-back">
+							<br><br>
 								<h3>In Just One</h3>
 								
 							</div>
@@ -314,6 +315,7 @@
 								
 							</div>
 							<div class="ch-info-back">
+							<br><br>
 								<h3>Click</h3>
 								
 							</div>
@@ -342,205 +344,126 @@
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/25025.jpg" alt="Project 1 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											1</span>
+									<span class="overlay-content"> <span class="h4">
+											Skin Goodness Color Corrector Cream </span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 1</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
+							
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img4.jpg" alt="Project 2 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											2</span>
+									<span class="overlay-content"> <span class="h4">
+											Little Black Dress-Edp 50ml (Oriental Floral)</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 2</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
+							
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img12.jpg" alt="Project 3 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											3</span>
+									<span class="overlay-content"> <span class="h4">
+											Honey And Milk Hand And Body Lotion</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 3</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
+							
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img6.jpg" alt="Project 4 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											4</span>
+									<span class="overlay-content"> <span class="h4">
+											Naturals Ayurvedic Cleanser 100g</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 4</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img7.jpg" alt="Project 5 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											5</span>
+									<span class="overlay-content"> <span class="h4">
+											Anew Reversalist-Renewal Night Cream</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 5</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img8.jpg" alt="Project 6 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											6</span>
+									<span class="overlay-content"> <span class="h4">
+											Avon Life Her - Edp 50ml (Vibrant Floral Watery)</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 6</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img9.jpg" alt="Project 7 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											7</span>
+									<span class="overlay-content"> <span class="h4">
+											Naturals Ayurvedic Whitening Cream 50g</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 7</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img10.jpg" alt="Project 8 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											8</span>
+									<span class="overlay-content"> <span class="h4">Honey And Milk Shower Gel
+									</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 8</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
+
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img13.jpg" alt="Project 9 image"
 								class="img-responsive underlay"> <span class="overlay">
-									<span class="overlay-content"> <span class="h4">Project
-											9</span>
+									<span class="overlay-content"> <span class="h4">
+											Avon Life Him - Edt Woody Fresh</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 9</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img11.jpg"
 								alt="Project 10 image" class="img-responsive underlay"> <span
 								class="overlay"> <span class="overlay-content"> <span
-										class="h4">Project 10</span>
+										class="h4">Black Sesame Bhringraj Shampoo 200ml</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 10</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img14.jpg"
 								alt="Project 11 image" class="img-responsive underlay"> <span
 								class="overlay"> <span class="overlay-content"> <span
-										class="h4">Project 11</span>
+										class="h4">True Color Lipstick Lava Love</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 11</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
+
 						</div>
 						<div class="item">
 							<a href="#" class="overlay-wrapper"> <img
 								src="resources/img/showcase/img.jpg" height="2%"
 								alt="Project 12 image" class="img-responsive underlay"> <span
 								class="overlay"> <span class="overlay-content"> <span
-										class="h4">Project 12</span>
+										class="h4">Cherish Perfume</span>
 								</span>
 							</span>
 							</a>
-							<div class="item-details bg-noise">
-								<h4 class="item-title">
-									<a href="#">Project 12</a>
-								</h4>
-								<a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read
-									more</a>
-							</div>
 						</div>
 					</div>
 				</div>

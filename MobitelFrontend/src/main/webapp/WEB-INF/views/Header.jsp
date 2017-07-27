@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script
@@ -80,15 +82,37 @@
 <link href="#" id="colour-scheme" rel="stylesheet">
 
 
+<style>
+.image
+{
+	background-image: url(../img/backgrounds/pink.jpg);
+}
+
+.beauty {
+	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
+		'URW Chancery L', cursive;
+	font-size: 75px;
+	margin-left: 230px;
+	color: #FC2080  ;
+}
+
+.font
+{
+	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
+		'URW Chancery L', cursive;
+	font-size: 50px;
+	color: #FC2080 ;
+}
+</style>
 </head>
-<body class="">
+
+<body class="page-index has-hero image">
 	<!--FONT AWESOME CDN LINK FOR FONT-AWESOME FONT -->
-	<div class="header navbar navbar-default navbar-custom">
-		
-<br>
+	
+
 
 <!-- navbar -->
-			<nav class="navbar  navbar-custom">
+			<nav class="navbar navbar-custom navbar-default">
 				<div class="container">
 					<div class="navbar-header">
 						<a class="navbar-toggle collapsed" data-target="#navbar"
@@ -110,7 +134,7 @@
 							<li class="dropdown"><a href="#"
 								class="dropdown-toggle faa-parent animated-hover"
 								data-toggle="dropdown"> <i
-									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i> &nbsp&nbsp PRODUCT &nbsp <span
+									class="fa fa-fw fa-lg fa-th faa-tada faa-fast"></i> &nbsp&nbsp PRODUCT &nbsp&nbsp<span
 									class="fa fa-caret-down"></span> &nbsp&nbsp
 							</a>
 								<ul class="dropdown-menu" role="menu">
@@ -128,21 +152,26 @@
 								</ul></li>
 								
 							<li><a href="displayProduct" class="faa-parent animated-hover">
-									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>DISPLAY PRODUCT
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i> DISPLAY PRODUCT 
 									
 							</a></li>
 								
 							<li><a href="ContactUs" class="faa-parent animated-hover">
-									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>CONTACT
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>&nbsp CONTACT &nbsp&nbsp
 									US
 							</a></li>
 							
 							<li><a href="Register"  class="faa-parent animated-hover"> <i
-									class="fa fa-fw fa-lg fa-edit faa-tada faa-fast"></i>REGISTER
+									class="fa fa-fw fa-lg fa-edit faa-tada faa-fast"></i>&nbsp REGISTER 
 							</a></li>
 							
 							<li><a  href="login" class="faa-parent animated-hover"> <i
-									class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast"></i>LOGIN
+									class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast"></i>&nbsp LOGIN &nbsp
+									
+							</a></li>
+							
+							<li><a  href="" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-search faa-tada faa-fast"></i> MORE &nbsp
 									
 							</a></li>
 						</ul>
@@ -150,10 +179,11 @@
 
 					</div>
 				</div>
-			</nav>
+			
 
 		</div>
-	</div>
+	
+</nav>
 
 
 </body>
