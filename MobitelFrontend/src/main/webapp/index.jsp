@@ -96,6 +96,7 @@
 	margin-left: 230px;
 	color: #FC2080  ;
 }
+
 .font
 {
 	font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery',
@@ -119,17 +120,18 @@
 				<!--header rightside-->
 				
 			</div>
-			<p>
+			
 			<div class=" container">
-			<h1 class=" beauty">
-				<a class="faa-parent animated-hover "> <i
+			<h1 class=" beauty" >
+			
+				<a class="faa-parent animated-hover"> <i
 					class="fa fa-fw faa-pulse faa-slow beauty">BeautyTouch</i>
 				</a>
-
+<br><br>
 			</h1>
-			</p>
+			
 			</div>
-<br>
+
 
 <!-- navbar -->
 			<nav class="navbar navbar-custom navbar-default">
@@ -172,21 +174,26 @@
 								</ul></li>
 								
 							<li><a href="displayProduct" class="faa-parent animated-hover">
-									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>DISPLAY PRODUCT
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i> DISPLAY PRODUCT 
 									
 							</a></li>
 								
 							<li><a href="ContactUs" class="faa-parent animated-hover">
-									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>CONTACT
+									<i class="fa fa-fw fa-lg fa-map-marker faa-tada faa-fast"></i>&nbsp CONTACT &nbsp&nbsp
 									US
 							</a></li>
 							
 							<li><a href="Register"  class="faa-parent animated-hover"> <i
-									class="fa fa-fw fa-lg fa-edit faa-tada faa-fast"></i>REGISTER
+									class="fa fa-fw fa-lg fa-edit faa-tada faa-fast"></i>&nbsp REGISTER 
 							</a></li>
 							
 							<li><a  href="login" class="faa-parent animated-hover"> <i
-									class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast"></i>LOGIN
+									class="fa fa-fw fa-lg fa-sign-in faa-tada faa-fast"></i>&nbsp LOGIN &nbsp
+									
+							</a></li>
+							
+							<li><a  href="" class="faa-parent animated-hover"> <i
+									class="fa fa-fw fa-lg fa-search faa-tada faa-fast"></i> MORE &nbsp
 									
 							</a></li>
 						</ul>
@@ -194,15 +201,15 @@
 
 					</div>
 				</div>
-			</nav>
+			
 
 		</div>
-	</div>
-
+	
+</nav>
 
 	<!-- Carousel -->
 
-	<div id="bootstrap-touch-slider"
+	<div id="content"
 		class="carousel bs-slider slide  control-round indicators-line"
 		data-ride="carousel" data-pause="hover" data-interval="5000">
 
@@ -222,7 +229,7 @@
 
 				<!-- Slide Background -->
 				<img src="resources/img/showcase/c6-banner.jpg"
-					alt="Bootstrap Touch Slider" class="slide-image" />
+					alt="Bootstrap Touch Slider" class="slide-image" height="500px" />
 				<div class="bs-slider-overlay"></div>
 
 			</div>
@@ -268,13 +275,11 @@
 
 	</div>
 	<!-- End  bootstrap-touch-slider Slider -->
-	<br>
-	<br>
-	<br>
+	
 	<!-- images -->
 
 	<!--  testing images -->
-	<div class="container background">
+	<div id="content" class="container">
 
 		<section class="main ">
 
@@ -284,11 +289,8 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-1"></div>
 							<div class="ch-info-back">
-								<h3>Mouse</h3>
-								<p>
-									by Alexander Shumihin <a href="http://drbl.in/eAoj">View on
-										Dribbble</a>
-								</p>
+								<h3>Beauty</h3>
+								
 							</div>
 						</div>
 					</div>
@@ -298,11 +300,8 @@
 						<div class="ch-info">
 							<div class="ch-info-front ch-img-2"></div>
 							<div class="ch-info-back">
-								<h3>You</h3>
-								<p>
-									by Zoe Ingram <a href="http://drbl.in/eCcV">View on
-										Dribbble</a>
-								</p>
+								<h3>In Just One</h3>
+								
 							</div>
 						</div>
 					</div>
@@ -315,11 +314,8 @@
 								
 							</div>
 							<div class="ch-info-back">
-								<h3>Love</h3>
-								<p>
-									by Eileen Tjan <a href="http://drbl.in/ewTL">View on
-										Dribbble</a>
-								</p>
+								<h3>Click</h3>
+								
 							</div>
 						</div>
 					</div>
